@@ -31,4 +31,4 @@ const galleryMarkup = images
       `<li class = "gallery-item"><img class = "gallery-img" src = "${item.url}" alt = "${item.alt}"></li>`
   )
   .join('');
-gallery.insertAdjacentHTML('beforebegin', galleryMarkup);
+gallery.insertAdjacentHTML('afterbegin', galleryMarkup);
